@@ -82,7 +82,7 @@ class MainActivity : AppCompatActivity() {
                 // Here if the value starts with '-' then we will separate it and perform the calculation with value.
                 if (value.startsWith("-")) {
                     prefix = "-"
-                    value = value.substring(1);
+                    value = value.substring(1)
                 }
 
                 // If the inputValue contains the Division operator
@@ -93,7 +93,7 @@ class MainActivity : AppCompatActivity() {
                     var one = splitedValue[0] // Value One
                     val two = splitedValue[1] // Value Two
 
-                    if (!prefix.isEmpty()) { // If the prefix is not empty then we will append it with first value i.e one.
+                    if (prefix.isNotEmpty()) { // If the prefix is not empty then we will append it with first value i.e one.
                         one = prefix + one
                     }
 
@@ -109,7 +109,7 @@ class MainActivity : AppCompatActivity() {
                     var one = splitedValue[0] // Value One
                     val two = splitedValue[1] // Value Two
 
-                    if (!prefix.isEmpty()) { // If the prefix is not empty then we will append it with first value i.e one.
+                    if (prefix.isNotEmpty()) { // If the prefix is not empty then we will append it with first value i.e one.
                         one = prefix + one
                     }
 
@@ -126,7 +126,7 @@ class MainActivity : AppCompatActivity() {
                     var one = splitedValue[0] // Value One
                     val two = splitedValue[1] // Value Two
 
-                    if (!prefix.isEmpty()) { // If the prefix is not empty then we will append it with first value i.e one.
+                    if (prefix.isNotEmpty()) { // If the prefix is not empty then we will append it with first value i.e one.
                         one = prefix + one
                     }
 
@@ -142,7 +142,7 @@ class MainActivity : AppCompatActivity() {
                     var one = splitedValue[0] // Value One
                     val two = splitedValue[1] // Value Two
 
-                    if (!prefix.isEmpty()) { // If the prefix is not empty then we will append it with first value i.e one.
+                    if (prefix.isNotEmpty()) { // If the prefix is not empty then we will append it with first value i.e one.
                         one = prefix + one
                     }
 
